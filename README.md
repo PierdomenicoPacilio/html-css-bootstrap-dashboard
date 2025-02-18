@@ -21,10 +21,3 @@
 <img src="img/tablet.png" width="600" alt="Tablet View">
 ### 🖥 **Versione Desktop** 
 <img src="img/desktop.png" width="800" alt="Desktop View">
----
-## 📦 Installazione 
-1️⃣ **Clona il repository** 
-```bash
-git clone https://github.com/tuo-utente/catalogo-libri.git
-```
-2️⃣ **Apri il file `index.html`** direttamente nel browser. 
