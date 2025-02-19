@@ -41,6 +41,53 @@
             </div>
         </nav>
     </header>
-    
+    <main class="container my-4">
+        <h1>Nuovo Libro</h1>
+        <form class="row" action="">
+            <div class="col-6 mb-3">
+                <label for="nome-autore" class="form-label">Nome Autore</label>
+                <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci il nome dell'autore">
+            </div>
+            <div class="col-6 mb-3">
+                <label for="cognome-autore" class="form-label">Cognome Autore</label>
+                <input type="text" class="form-control" id="cognome-autore" placeholder="Inserisci il cognome dell'autore">
+            </div>
+            <div class="col-12 mb-3">
+                <label for="titolo-libro" class="form-label">Titolo</label>
+                <input type="text" class="form-control" id="titolo-libro" placeholder="Inserisci il titolo del libro">
+                <p class="text-secondary my-1">Titolo versione italiana</p>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <label for="genere-libro" class="form-label">Genere</label>
+                <select class="form-select" id="genere-libro">
+                    <option selected>Scegli il genere</option>
+                    <option value="nar">Narrativa</option>
+                    <option value="fan">Fantasy</option>
+                    <option value="sci">Fantascienza</option>
+                    <option value="hor">Horror</option>
+                    <option value="gia">Giallo</option>
+                    <option value="ros">Romanzo rosa</option>
+                    <option value="sto">Storico</option>
+                    <option value="avv">Avventura</option>
+                    <option value="bio">Biografia</option>
+                    <option value="sag">Saggistica</option>
+                    <option value="poe">Poesia</option>
+                    <option value="tea">Teatro</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <label for="anno-libro" class="form-label">Anno di pubblicazione</label>
+                <input type="number" class="form-control" id="anno-libro" placeholder="Inserisci l'anno">
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <label for="isbn-libro" class="form-label">ISBN#</label>
+                <input type="number" class="form-control" id="isbn-libro" placeholder="Inserisci il codice ISBN#">
+            </div>            
+            
+
+        </form>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
