@@ -43,7 +43,7 @@
     </header>
     <main class="container my-4">
         <h1>Nuovo Libro</h1>
-        <form class="row" action="">
+        <form class="row my-4" action="">
             <div class="col-6 mb-3">
                 <label for="nome-autore" class="form-label">Nome Autore</label>
                 <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci il nome dell'autore">
@@ -82,9 +82,23 @@
             <div class="col-12 col-md-4 mb-3">
                 <label for="isbn-libro" class="form-label">ISBN#</label>
                 <input type="number" class="form-control" id="isbn-libro" placeholder="Inserisci il codice ISBN#">
-            </div>            
-            
-
+            </div>
+            <div class="col-12 mb-3 my-3"><hr></div>
+            <div class="col-12 mb-3">
+                <label for="note-libro" class="form-label">Note</label>
+                <textarea class="form-control" id="note-libro" placeholder="Inserisci eventuali note sul libro" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <div class="col-12 form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="digitale-spunta">
+                    <label class="form-check-label" for="digitale-spunta">
+                    Disponibile anche in digitale
+                    </label>
+                </div>
+            </div>
+            <div class="col-12 my-1">
+                <button class="btn btn-primary" type="submit">Aggiungi Libro</button>
+            </div>
         </form>
     </main>
     <!-- Bootstrap JS -->
